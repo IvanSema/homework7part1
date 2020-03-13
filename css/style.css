@@ -1,0 +1,181 @@
+@import url(//db.onlinewebfonts.com/c/28ab2388a285602c8dd4e82081ecac27?family=Miso);
+
+@font-face {font-family: "Miso"; src: url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.eot"); src: url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.woff") format("woff"), url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/28ab2388a285602c8dd4e82081ecac27.svg#Miso") format("svg"); }
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('../fonts/Lato-Light.eot');
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Light.woff') format('woff'),
+    url('../fonts/Lato-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer{
+    display: flex;
+    background-color: #fdde7e;
+    padding: 0 15px 0 15px;
+    justify-content: center;
+    min-width: 900px;
+
+}
+
+.block{
+    min-width: 290px;
+    max-width: 360px;
+    background-color: white;
+    border: #edd076 solid 1px;
+    margin: 80px 14px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.block .header{
+    display: block;
+    font-family: "Miso";
+    font-size: 70px;
+    color: #02995b;
+    margin: -13px 0 -31px 0;
+}
+
+.cup-grey{
+    box-sizing: border-box;
+    width: 135px;
+    height: 77px;
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin: 0 auto;
+    padding: 17px 57px 16px 40px;
+
+}
+
+.smoke-grey{
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 49px;
+    background-position: -140px top;
+    margin: 0 auto 11px auto;
+}
+
+
+.cup-orange{
+    box-sizing: border-box;
+    width: 135px;
+    height: 77px;
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    background-position: 0 -154px;
+    margin: 0 auto;
+    padding: 17px 57px 16px 40px;
+
+}
+
+.smoke-yellow{
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 49px;
+    background-position: -140px -47px;
+    margin: 0 auto 11px auto;
+}
+
+.cup-yellow{
+    box-sizing: border-box;
+    width: 135px;
+    height: 77px;
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    background-position: 0 -77px;
+    margin: 0 auto;
+    padding: 17px 57px 16px 40px;
+
+}
+
+.smoke-orange{
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 49px;
+    background-position: -140px -94px;
+    margin: 0 auto 11px auto;
+}
+
+.bean{
+    background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    height: 44px;
+    width: 36px;
+    background-position:  -146px -140px;
+}
+
+.block .second-header{
+    display: inline-block;
+    font-size: 50px;
+    margin: 29px 0 40px 0;
+    font-family: 'Lato Light';
+    font-weight: bold;    
+}
+
+.block .description{
+    display: inline-block;
+    font-size: 20px;
+    margin: -23px 102px 33px 102px;
+    font-family: 'Lato Light';
+    color: #333;
+}
+
+.block:nth-child(2){
+    margin: 50px 14px;
+}
